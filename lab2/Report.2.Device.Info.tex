@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Labwork 2}
+\author{Phan Thanh Bình}
+\date{2026-09-28}
+
+\begin{document}
+
+\maketitle
+
+\section{GPU Device Info}
+After doing these steps:
+\begin{itemize}
+\item Login to \textit{Google Collab}
+\item Import: \textit{from numba import cuda}
+\item Run code to get GPU(s) info: \textit{cuda.detect()}
+\end{itemize}
+I got the following output:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{gpu_info.png}
+    \caption{Google Collab GPU Info}
+    \label{fig:gpu-info}
+\end{figure}
+
+\end{document}
